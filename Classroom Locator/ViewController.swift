@@ -23,3 +23,6 @@ class ViewController: UIViewController {
 
 }
 
+
+// There is nothing
+// The world is about to be destroyed, and noone will get survived.
