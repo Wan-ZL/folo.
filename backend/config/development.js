@@ -23,7 +23,7 @@ let config = {
     '101': 'internal server',  // 服务器错误
     '102': 'connection failed',  // 连接失败
     '103': 'not found',  // 没找到资源
-    '104': 'invalid json',  // 无效 JSON
+    '104': 'invalid json', //无效 JSON
     '105': 'incorrect type',  // 无效 类型
     '108': 'operation forbidden',  // 操作被禁止
     '109': 'timeout',  // 超时
