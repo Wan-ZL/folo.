@@ -10,7 +10,7 @@ let BuildingController = {
       let findBuilding
       let result
       try {
-        findBuilding = await Building.findBuilding({'name': building.name})
+        findBuilding = await Building.findBuilding({'name': building.name.toLowerCase()})
       } catch (error) {
         console.error(error)
         return res.status(500).json({

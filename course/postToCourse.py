@@ -3,6 +3,7 @@ import json
 import os
 
 url = 'http://127.0.0.1:9000/v1/course/createCourse'
+# url = 'https://cl.simino.xyz/v1/course/createCourse'
 filename = 'course_detail_without_none'
 
 def main():
@@ -19,8 +20,8 @@ def main():
         number = detail[3]
         courseType = detail[4]
         instructor = detail[5]
-        room = detail[6]
-        location = detail[7]
+        location = detail[6]
+        room = detail[7].rstrip()
         data = {
             'subject': subject,
             'catalogNumber': catalogNumber,

@@ -3,6 +3,7 @@ import json
 import os
 
 url = 'http://127.0.0.1:9000/v1/building/createBuilding'
+# url = 'https://cl.simino.xyz/v1/building/createBuilding'
 filename = 'all_building_name'
 
 def main():
@@ -15,7 +16,7 @@ def main():
         detail = line.split(',')
         name = detail[0]
         latitude = detail[1]
-        longitude = detail[2]
+        longitude = detail[2].rstrip()
         data = {'name': name, 'latitude': latitude, 'longitude': longitude}
         data = json.dumps(data)
         headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}

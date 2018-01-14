@@ -13,7 +13,7 @@ let CourseController = {
       let result
       try {
         findCourse = await Course.findCourse({'number': course.number})
-        findBuilding = await Building.findBuilding({'name': course.location})
+        findBuilding = await Building.findBuilding({'name': course.location.toLowerCase()})
       } catch (error) {
         console.error(error)
         return res.status(500).json({
@@ -42,7 +42,7 @@ let CourseController = {
           'courseType': course.courseType,
           'instructor': course.instructor,
           'room': course.room,
-          'location': course.location
+          'location': course.location.toLowerCase()
         })
       } else {
         return res.status(500).json({
@@ -60,12 +60,12 @@ let CourseController = {
   },
   'get': {
     'getCourse': async (req, res, next) => {
-      const mass = req.query.mass.replace(/ /, '')
-      const catalogNumber = mass.replace(/[a-z]+|[A-Z]+/, '')
-      const subject = mass.replace(/[0-1]+/, '')
+      const mass = req.query.mass.replace(/ /gi, '')
+      const catalogNumber = mass.replace(/[a-z]+|[A-Z]+/gi, '')
+      const subject = mass.replace(/[0-9]+/gi, '').toLowerCase()
       console.log(catalogNumber + ' ' + subject)
-      const queryCatalogNumber = {'catalogNumber': new RegExp(catalogNumber)}
-      const querySubject = {'subject': new RegExp(subject.toLowerCase())}
+      const queryCatalogNumber = {'catalogNumber': catalogNumber}
+      const querySubject = {'subject': subject.toLowerCase()}
       let query
       let flag = 0
       if (subject !== '' && catalogNumber === '') {

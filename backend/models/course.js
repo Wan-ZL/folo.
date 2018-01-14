@@ -62,7 +62,7 @@ let Course = {
     return new Promise(async (resolve, reject) => {
       let results
       try {
-        results = await CourseModel.find(query).sort({'number': 1}).limit(30)
+        results = await CourseModel.find(query).sort({'catalogNumber': 1}).limit(30)
       } catch (error) {
         console.error(error)
         reject(error)
@@ -74,7 +74,7 @@ let Course = {
     return new Promise(async (resolve, reject) => {
       let results
       try {
-        results = await CourseModel.find(query).sort({'number': 1}).limit(30)
+        results = await CourseModel.find(query).sort({'catalogNumber': 1}).limit(30)
       } catch (error) {
         console.error(error)
         reject(error)
@@ -86,7 +86,7 @@ let Course = {
     return new Promise(async (resolve, reject) => {
       let results
       try {
-        results = await CourseModel.find({$or: query}).sort({'number': 1}).limit(30)
+        results = await CourseModel.find({$or: query}).sort({'catalogNumber': 1}).limit(30)
       } catch (error) {
         console.error(error)
         reject(error)
