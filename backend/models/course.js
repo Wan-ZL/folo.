@@ -27,9 +27,12 @@ const CourseSchema = new Mongoose.Schema({
     type: SchemaTypes.String,
     require: true
   },
+  'location': {
+    type: SchemaTypes.String,
+    require: true
+  },
   'createdAt': {
     type: SchemaTypes.Number,
-    required: true,
     validate: (timestamp) => (timestamp + '').length === 13,
     default: () => new Date().getTime()
   }
@@ -55,7 +58,7 @@ let Course = {
     return new Promise(async (resolve, reject) => {
       let results
       try {
-        results = await CourseModel.find(query).sort({'number': -1})
+        results = await CourseModel.find({$or: query}).sort({'number': -1})
       } catch (error) {
         console.error(error)
         reject(error)

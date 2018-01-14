@@ -17,7 +17,6 @@ const BuildingSchema = new Mongoose.Schema({
   },
   'createdAt': {
     type: SchemaTypes.Number,
-    required: true,
     validate: (timestamp) => (timestamp + '').length === 13,
     default: () => new Date().getTime()
   }
