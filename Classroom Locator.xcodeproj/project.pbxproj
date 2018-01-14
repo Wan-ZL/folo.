@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62774174200980F700E5A633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62774173200980F700E5A633 /* AppDelegate.swift */; };
+		62774179200980F700E5A633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62774177200980F700E5A633 /* Main.storyboard */; };
+		6277417B200980F700E5A633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6277417A200980F700E5A633 /* Assets.xcassets */; };
+		6277417E200980F700E5A633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6277417C200980F700E5A633 /* LaunchScreen.storyboard */; };
+		62A7330D200AC14A00569540 /* CampusTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A73309200AC14A00569540 /* CampusTheme.swift */; };
+		62A7330E200AC14A00569540 /* UALocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7330A200AC14A00569540 /* UALocation.swift */; };
+		62A7330F200AC14A00569540 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7330B200AC14A00569540 /* DetailViewController.swift */; };
+		62A73310200AC14A00569540 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7330C200AC14A00569540 /* MasterViewController.swift */; };
+		62A7332A200AC2FA00569540 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A7331D200AC2EF00569540 /* Alamofire.framework */; };
+		62A7332B200AC2FA00569540 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62A7331D200AC2EF00569540 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		62A73361200AFD9500569540 /* NavigationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A73359200AFD9500569540 /* NavigationNode.swift */; };
+		62A73365200AFDF200569540 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A73364200AFDF200569540 /* ARViewController.swift */; };
+		62A73370200B056D00569540 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A73366200B056D00569540 /* SCNNode+Extensions.swift */; };
+		62A73371200B056D00569540 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A73367200B056D00569540 /* CGPoint+Extensions.swift */; };
+		62A73372200B056D00569540 /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A73368200B056D00569540 /* SceneLocationView.swift */; };
+		62A73373200B056D00569540 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A73369200B056D00569540 /* LocationManager.swift */; };
+		62A73374200B056D00569540 /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7336A200B056D00569540 /* SceneLocationEstimate+Extensions.swift */; };
+		62A73375200B056D00569540 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7336B200B056D00569540 /* CLLocation+Extensions.swift */; };
+		62A73376200B056D00569540 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7336C200B056D00569540 /* SCNVector3+Extensions.swift */; };
+		62A73377200B056D00569540 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7336D200B056D00569540 /* SceneLocationEstimate.swift */; };
+		62A73378200B056D00569540 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7336E200B056D00569540 /* FloatingPoint+Radians.swift */; };
+		62A73379200B056D00569540 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7336F200B056D00569540 /* LocationNode.swift */; };
+		62A7337B200B0D5F00569540 /* SearchSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7337A200B0D5F00569540 /* SearchSplitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62A7331C200AC2EF00569540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		62A7331E200AC2EF00569540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		62A73320200AC2EF00569540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		62A73322200AC2EF00569540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		62A73324200AC2EF00569540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		62A73326200AC2EF00569540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		62A73328200AC2EF00569540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		62A7332C200AC2FA00569540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62A7332E200AC2FA00569540 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				62A7332B200AC2FA00569540 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62774170200980F700E5A633 /* Classroom Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classroom Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62774173200980F700E5A633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62774178200980F700E5A633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6277417A200980F700E5A633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6277417D200980F700E5A633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6277417F200980F700E5A633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A73309200AC14A00569540 /* CampusTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusTheme.swift; sourceTree = "<group>"; };
+		62A7330A200AC14A00569540 /* UALocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UALocation.swift; sourceTree = "<group>"; };
+		62A7330B200AC14A00569540 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		62A7330C200AC14A00569540 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		62A73311200AC2EF00569540 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		62A73359200AFD9500569540 /* NavigationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationNode.swift; sourceTree = "<group>"; };
+		62A73364200AFDF200569540 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		62A73366200B056D00569540 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		62A73367200B056D00569540 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		62A73368200B056D00569540 /* SceneLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationView.swift; sourceTree = "<group>"; };
+		62A73369200B056D00569540 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		62A7336A200B056D00569540 /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		62A7336B200B056D00569540 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		62A7336C200B056D00569540 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		62A7336D200B056D00569540 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationEstimate.swift; sourceTree = "<group>"; };
+		62A7336E200B056D00569540 /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		62A7336F200B056D00569540 /* LocationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationNode.swift; sourceTree = "<group>"; };
+		62A7337A200B0D5F00569540 /* SearchSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSplitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6277416D200980F700E5A633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A7332A200AC2FA00569540 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62774167200980F700E5A633 = {
+			isa = PBXGroup;
+			children = (
+				62A73311200AC2EF00569540 /* Alamofire.xcodeproj */,
+				62774172200980F700E5A633 /* Classroom Locator */,
+				62774171200980F700E5A633 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62774171200980F700E5A633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62774170200980F700E5A633 /* Classroom Locator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62774172200980F700E5A633 /* Classroom Locator */ = {
+			isa = PBXGroup;
+			children = (
+				62774173200980F700E5A633 /* AppDelegate.swift */,
+				62774177200980F700E5A633 /* Main.storyboard */,
+				62A73309200AC14A00569540 /* CampusTheme.swift */,
+				62A7330B200AC14A00569540 /* DetailViewController.swift */,
+				62A7330C200AC14A00569540 /* MasterViewController.swift */,
+				62A7337A200B0D5F00569540 /* SearchSplitViewController.swift */,
+				62A73364200AFDF200569540 /* ARViewController.swift */,
+				62A73359200AFD9500569540 /* NavigationNode.swift */,
+				62A7330A200AC14A00569540 /* UALocation.swift */,
+				6277417A200980F700E5A633 /* Assets.xcassets */,
+				6277417C200980F700E5A633 /* LaunchScreen.storyboard */,
+				6277417F200980F700E5A633 /* Info.plist */,
+				62A7324E2009825B00569540 /* ARCL Library */,
+			);
+			path = "Classroom Locator";
+			sourceTree = "<group>";
+		};
+		62A7324E2009825B00569540 /* ARCL Library */ = {
+			isa = PBXGroup;
+			children = (
+				62A73367200B056D00569540 /* CGPoint+Extensions.swift */,
+				62A7336B200B056D00569540 /* CLLocation+Extensions.swift */,
+				62A7336E200B056D00569540 /* FloatingPoint+Radians.swift */,
+				62A73369200B056D00569540 /* LocationManager.swift */,
+				62A7336F200B056D00569540 /* LocationNode.swift */,
+				62A7336D200B056D00569540 /* SceneLocationEstimate.swift */,
+				62A7336A200B056D00569540 /* SceneLocationEstimate+Extensions.swift */,
+				62A73368200B056D00569540 /* SceneLocationView.swift */,
+				62A73366200B056D00569540 /* SCNNode+Extensions.swift */,
+				62A7336C200B056D00569540 /* SCNVector3+Extensions.swift */,
+			);
+			path = "ARCL Library";
+			sourceTree = "<group>";
+		};
+		62A73312200AC2EF00569540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62A7331D200AC2EF00569540 /* Alamofire.framework */,
+				62A7331F200AC2EF00569540 /* Alamofire iOS Tests.xctest */,
+				62A73321200AC2EF00569540 /* Alamofire.framework */,
+				62A73323200AC2EF00569540 /* Alamofire macOS Tests.xctest */,
+				62A73325200AC2EF00569540 /* Alamofire.framework */,
+				62A73327200AC2EF00569540 /* Alamofire tvOS Tests.xctest */,
+				62A73329200AC2EF00569540 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6277416F200980F700E5A633 /* Classroom Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62774182200980F700E5A633 /* Build configuration list for PBXNativeTarget "Classroom Locator" */;
+			buildPhases = (
+				6277416C200980F700E5A633 /* Sources */,
+				6277416D200980F700E5A633 /* Frameworks */,
+				6277416E200980F700E5A633 /* Resources */,
+				62A7332E200AC2FA00569540 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62A7332D200AC2FA00569540 /* PBXTargetDependency */,
+			);
+			name = "Classroom Locator";
+			productName = "Classroom Locator";
+			productReference = 62774170200980F700E5A633 /* Classroom Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62774168200980F700E5A633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Wenkang Zhou";
+				TargetAttributes = {
+					6277416F200980F700E5A633 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6277416B200980F700E5A633 /* Build configuration list for PBXProject "Classroom Locator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62774167200980F700E5A633;
+			productRefGroup = 62774171200980F700E5A633 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 62A73312200AC2EF00569540 /* Products */;
+					ProjectRef = 62A73311200AC2EF00569540 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6277416F200980F700E5A633 /* Classroom Locator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		62A7331D200AC2EF00569540 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 62A7331C200AC2EF00569540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62A7331F200AC2EF00569540 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 62A7331E200AC2EF00569540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62A73321200AC2EF00569540 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 62A73320200AC2EF00569540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62A73323200AC2EF00569540 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 62A73322200AC2EF00569540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62A73325200AC2EF00569540 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 62A73324200AC2EF00569540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62A73327200AC2EF00569540 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 62A73326200AC2EF00569540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62A73329200AC2EF00569540 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 62A73328200AC2EF00569540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6277416E200980F700E5A633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6277417E200980F700E5A633 /* LaunchScreen.storyboard in Resources */,
+				6277417B200980F700E5A633 /* Assets.xcassets in Resources */,
+				62774179200980F700E5A633 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6277416C200980F700E5A633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A73379200B056D00569540 /* LocationNode.swift in Sources */,
+				62A73372200B056D00569540 /* SceneLocationView.swift in Sources */,
+				62A73365200AFDF200569540 /* ARViewController.swift in Sources */,
+				62A73361200AFD9500569540 /* NavigationNode.swift in Sources */,
+				62A73375200B056D00569540 /* CLLocation+Extensions.swift in Sources */,
+				62A73376200B056D00569540 /* SCNVector3+Extensions.swift in Sources */,
+				62A73310200AC14A00569540 /* MasterViewController.swift in Sources */,
+				62A73370200B056D00569540 /* SCNNode+Extensions.swift in Sources */,
+				62A7330E200AC14A00569540 /* UALocation.swift in Sources */,
+				62A73377200B056D00569540 /* SceneLocationEstimate.swift in Sources */,
+				62A73371200B056D00569540 /* CGPoint+Extensions.swift in Sources */,
+				62A73378200B056D00569540 /* FloatingPoint+Radians.swift in Sources */,
+				62A73373200B056D00569540 /* LocationManager.swift in Sources */,
+				62A73374200B056D00569540 /* SceneLocationEstimate+Extensions.swift in Sources */,
+				62A7330D200AC14A00569540 /* CampusTheme.swift in Sources */,
+				62774174200980F700E5A633 /* AppDelegate.swift in Sources */,
+				62A7337B200B0D5F00569540 /* SearchSplitViewController.swift in Sources */,
+				62A7330F200AC14A00569540 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62A7332D200AC2FA00569540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 62A7332C200AC2FA00569540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62774177200980F700E5A633 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62774178200980F700E5A633 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6277417C200980F700E5A633 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6277417D200980F700E5A633 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62774180200980F700E5A633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62774181200980F700E5A633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62774183200980F700E5A633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269QYF3XKB;
+				INFOPLIST_FILE = "Classroom Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wenkangzhou.Classroom-Locator-wz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62774184200980F700E5A633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269QYF3XKB;
+				INFOPLIST_FILE = "Classroom Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wenkangzhou.Classroom-Locator-wz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6277416B200980F700E5A633 /* Build configuration list for PBXProject "Classroom Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62774180200980F700E5A633 /* Debug */,
+				62774181200980F700E5A633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62774182200980F700E5A633 /* Build configuration list for PBXNativeTarget "Classroom Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62774183200980F700E5A633 /* Debug */,
+				62774184200980F700E5A633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62774168200980F700E5A633 /* Project object */;
+}
