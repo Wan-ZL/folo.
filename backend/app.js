@@ -6,8 +6,6 @@ let cookieParser = require('cookie-parser')
 let bodyParser = require('body-parser')
 let cors = require('cors')
 
-let index = require('./routes/index')
-
 let app = express()
 
 // view engine setup
@@ -25,7 +23,8 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 let routes = {
   '/v1/course': require('./routes/course'),
-  '/v1/building': require('./routes/building')
+  '/v1/building': require('./routes/building'),
+  '/index': require('./routes/index')
 }
 
 Object.keys(routes).forEach((key) => {

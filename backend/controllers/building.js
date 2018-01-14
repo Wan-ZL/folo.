@@ -50,7 +50,29 @@ let BuildingController = {
       })
     }
   },
-  'get': {}
+  'get': {
+    'getBuilding': async (req, res, next) => {
+      const name = req.query.name
+      console.log(name)
+      let result
+      const query = {'name': name}
+      try {
+        result = await Building.findBuilding(query)
+      } catch (error) {
+        console.error(error)
+        return res.status(500).json({
+          'code': 101,
+          'message': 'internal server error',
+          'result': {}
+        })
+      }
+      return res.status(200).json({
+        'code': 200,
+        'message': 'successful',
+        'result': result
+      })
+    }
+  }
 }
 
 module.exports = BuildingController

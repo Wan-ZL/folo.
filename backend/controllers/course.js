@@ -12,7 +12,7 @@ let CourseController = {
       let findBuilding
       let result
       try {
-        findCourse = await Course.findCourse([{'number': course.number}])
+        findCourse = await Course.findCourse({'number': course.number})
         findBuilding = await Building.findBuilding({'name': course.location})
       } catch (error) {
         console.error(error)
@@ -36,6 +36,7 @@ let CourseController = {
       } else if (findBuilding !== null) {
         result = await Course.createCourse({
           'subject': course.subject.toLowerCase(),
+          'catalogNumber': course.catalogNumber.toLowerCase(),
           'section': course.section,
           'number': course.number,
           'courseType': course.courseType,
@@ -59,16 +60,36 @@ let CourseController = {
   },
   'get': {
     'getCourse': async (req, res, next) => {
-      const mass = req.query.mass
-      const section = mass.replace(/[a-z]+|[A-Z]+/, '')
+      const mass = req.query.mass.replace(/ /, '')
+      const catalogNumber = mass.replace(/[a-z]+|[A-Z]+/, '')
       const subject = mass.replace(/[0-1]+/, '')
-      console.log(section + ' ' + subject)
-      const querySection = {'section': new RegExp(section)}
+      console.log(catalogNumber + ' ' + subject)
+      const queryCatalogNumber = {'catalogNumber': new RegExp(catalogNumber)}
       const querySubject = {'subject': new RegExp(subject.toLowerCase())}
-      const query = [querySection, querySubject]
+      let query
+      let flag = 0
+      if (subject !== '' && catalogNumber === '') {
+        query = querySubject
+      } else if (subject === '' && catalogNumber !== '') {
+        query = queryCatalogNumber
+      } else if (subject === '' && catalogNumber === '') {
+        flag = 3
+      } else {
+        flag = 1
+        query = [queryCatalogNumber, querySubject]
+      }
       let results
       try {
-        results = await Course.findCourse(query)
+        if (flag === 1) {
+          results = await Course.findCourse({'catalogNumber': catalogNumber, 'subject': subject})
+          if (results < 1) {
+            results = await Course.findCourseOrQuery(query)
+          }
+        } else if (flag === 0) {
+          results = await Course.findCourseByOneQuery(query)
+        } else {
+          results = []
+        }
       } catch (error) {
         console.error(error)
         return res.status(500).json({
@@ -77,7 +98,6 @@ let CourseController = {
           'result': {}
         })
       }
-      console.log(results)
       return res.status(200).json({
         'code': 200,
         'message': 'successful',

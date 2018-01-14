@@ -7,6 +7,10 @@ const CourseSchema = new Mongoose.Schema({
     type: SchemaTypes.String,
     require: true
   },
+  'catalogNumber': {
+    type: SchemaTypes.String,
+    require: true
+  },
   'number': {
     type: SchemaTypes.Number,
     require: true
@@ -58,7 +62,31 @@ let Course = {
     return new Promise(async (resolve, reject) => {
       let results
       try {
-        results = await CourseModel.find({$or: query}).sort({'number': -1})
+        results = await CourseModel.find(query).sort({'number': 1}).limit(30)
+      } catch (error) {
+        console.error(error)
+        reject(error)
+      }
+      resolve(results)
+    })
+  },
+  'findCourseByOneQuery': (query) => {
+    return new Promise(async (resolve, reject) => {
+      let results
+      try {
+        results = await CourseModel.find(query).sort({'number': 1}).limit(30)
+      } catch (error) {
+        console.error(error)
+        reject(error)
+      }
+      resolve(results)
+    })
+  },
+  'findCourseOrQuery': (query) => {
+    return new Promise(async (resolve, reject) => {
+      let results
+      try {
+        results = await CourseModel.find({$or: query}).sort({'number': 1}).limit(30)
       } catch (error) {
         console.error(error)
         reject(error)
