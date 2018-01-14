@@ -1,0 +1,387 @@
+TTE,539,001,50723,LEC,William Roth,Off Campus,Rm 1
+TTE,539,002,81351,LEC,Patricia Stowers,Off Campus,Rm 1
+TTE,539,003,91423,LEC,Carol Evans,Education,Rm 502
+TTE,539,020,50724,LEC,William Roth,Off Campus,Rm 1
+TTE,570,001,91246,LEC,Jessica Summers,Education,Rm 535
+TTE,581,001,91264,LEC,Marcy Wood,Education,Rm 530
+TTE,593,001,50560,IND,David Gramling,Off Campus,Rm 1
+TTE,593,002,88559,IND,Cynthia White,Off Campus,Rm 1
+TTE,593,003,94510,IND,Karin Nolan,Off Campus,Rm 1
+TTE,593B,001,81307,IND,Donald Adams,Off Campus,Rm 1
+TTE,593B,002,81308,IND,Len Anderson,Off Campus,Rm 1
+TTE,593B,003,81309,IND,Robin Batty,Off Campus,Rm 1
+TTE,593B,004,81310,IND,Catherine Crockett,Off Campus,Rm 1
+TTE,593B,005,81325,IND,Gay Ide,Off Campus,Rm 1
+TTE,593B,006,81326,IND,Sylvia Kniest,Off Campus,Rm 1
+TTE,593B,007,81327,IND,Kathleen Krucker,Off Campus,Rm 1
+TTE,593B,008,81328,IND,Debra Pettit,Off Campus,Rm 1
+TTE,593B,009,81329,IND,Laura Steele,Off Campus,Rm 1
+TTE,593B,010,81330,IND,Beverly Waters,Off Campus,Rm 1
+TTE,593B,011,81333,IND,William Roth,Off Campus,Rm 1
+TTE,593B,012,85079,IND,William Roth,Off Campus,Rm 1
+TTE,593B,013,85080,IND,William Roth,Off Campus,Rm 1
+TTE,593B,014,85081,IND,William Roth,Off Campus,Rm 1
+TTE,593B,015,85082,IND,William Roth,Off Campus,Rm 1
+TTE,593B,020,85083,IND,Lowell Brown,Off Campus,Rm 1
+TTE,593B,021,85084,IND,Marsha Coburn,Off Campus,Rm 1
+TTE,593B,022,85085,IND,Michael Lang,Off Campus,Rm 1
+TTE,593B,023,91364,IND,Michael Lang,Off Campus,Rm 1
+TTE,593B,024,91365,IND,Linda Hayes,Off Campus,Rm 1
+TTE,593B,025,91366,IND,Michael Lang,Off Campus,Rm 1
+TTE,593B,026,91367,IND,Michael Lang,Off Campus,Rm 1
+TTE,593B,027,91368,IND,Michael Lang,Off Campus,Rm 1
+TTE,596C,001,81305,SEM,Jeremy Garcia,M Pacheco ILC,Rm 129
+TTE,596C,003,91278,SEM,Iliana Reyes,Education,Rm 530
+TTE,597F,001,50691,WRK,Jill Williams,Env & Nat Rsrcs Phas2,Rm S230
+TTE,599,001,50561,IND,Patricia Anders,None,None
+TTE,599,002,50562,IND,Alberto Arenas,None,None
+TTE,599,003,50582,IND,Carol Brochin,None,None
+TTE,599,004,50583,IND,Katherine Carter,None,None
+TTE,599,005,50584,IND,Jill Castek,None,None
+TTE,599,006,50585,IND,Mary Combs,None,None
+TTE,599,007,50586,IND,Leah Duran,None,None
+TTE,599,008,50587,IND,Jeremy Garcia,None,None
+TTE,599,009,50588,IND,Perry Gilmore,None,None
+TTE,599,010,50589,IND,Kristin Gunckel,None,None
+TTE,599,011,50563,IND,Suzanne Kaplan,None,None
+TTE,599,012,50564,IND,Elizabeth Jaeger,None,None
+TTE,599,013,50699,IND,Bruce Johnson,None,None
+TTE,599,014,88316,IND,Marie Jones,None,None
+TTE,599,015,88317,IND,Nicole Kersting,None,None
+TTE,599,016,88318,IND,Sheilah Nicholas,None,None
+TTE,599,017,88319,IND,Iliana Reyes,None,None
+TTE,599,018,88320,IND,Eliane Rubinstein-Avila,None,None
+TTE,599,019,88330,IND,Valerie Shirley,None,None
+TTE,599,020,88331,IND,Kathleen Short,None,None
+TTE,599,021,88332,IND,William Smith,None,None
+TTE,599,022,88333,IND,Jessica Summers,None,None
+TTE,599,023,88334,IND,Sara Tolbert,None,None
+TTE,599,024,88335,IND,Erin Turner,None,None
+TTE,599,025,88336,IND,Marcy Wood,None,None
+TTE,599,026,88337,IND,Leisy Wyman,None,None
+TTE,599,027,88338,IND,David Yaden,None,None
+TTE,599,028,94787,IND,Sanlyn Buxner,None,None
+TTE,602,001,50695,LEC,Katherine Carter,Education,Rm 504
+TTE,693,001,50577,IND,Patricia Anders,None,None
+TTE,693,002,50579,IND,Alberto Arenas,None,None
+TTE,693,003,50590,IND,Carol Brochin,None,None
+TTE,693,004,50591,IND,Katherine Carter,None,None
+TTE,693,005,50592,IND,Jill Castek,None,None
+TTE,693,006,50593,IND,Mary Combs,None,None
+TTE,693,007,50594,IND,Leah Duran,None,None
+TTE,693,008,50595,IND,Jeremy Garcia,None,None
+TTE,693,009,50596,IND,Perry Gilmore,None,None
+TTE,693,010,50597,IND,Kristin Gunckel,None,None
+TTE,693,011,50598,IND,Ana Iddings,None,None
+TTE,693,012,50599,IND,Elizabeth Jaeger,None,None
+TTE,693,013,88339,IND,Bruce Johnson,None,None
+TTE,693,014,88340,IND,Marie Jones,None,None
+TTE,693,015,88341,IND,Nicole Kersting,None,None
+TTE,693,016,88342,IND,Sheilah Nicholas,None,None
+TTE,693,017,88343,IND,Iliana Reyes,None,None
+TTE,693,018,88345,IND,Eliane Rubinstein-Avila,None,None
+TTE,693,019,88346,IND,Valerie Shirley,None,None
+TTE,693,020,88347,IND,Kathleen Short,None,None
+TTE,693,021,88348,IND,William Smith,None,None
+TTE,693,022,88349,IND,Jessica Summers,None,None
+TTE,693,023,88350,IND,Sara Tolbert,None,None
+TTE,693,024,88351,IND,Erin Turner,None,None
+TTE,693,025,88352,IND,Marcy Wood,None,None
+TTE,693,026,88353,IND,Leisy Wyman,None,None
+TTE,693,027,88354,IND,David Yaden,None,None
+TTE,694,001,50565,IND,Bruce Johnson,None,None
+TTE,699,001,50566,IND,Patricia Anders,None,None
+TTE,699,002,50600,IND,Alberto Arenas,None,None
+TTE,699,003,50601,IND,Carol Brochin,None,None
+TTE,699,004,50602,IND,Katherine Carter,None,None
+TTE,699,005,50603,IND,Jill Castek,None,None
+TTE,699,006,50604,IND,Mary Combs,None,None
+TTE,699,007,50605,IND,Leah Duran,None,None
+TTE,699,008,50606,IND,Jeremy Garcia,None,None
+TTE,699,009,50607,IND,Perry Gilmore,None,None
+TTE,699,010,50608,IND,Kristin Gunckel,None,None
+TTE,699,011,50609,IND,Ana Iddings,None,None
+TTE,699,012,50610,IND,Elizabeth Jaeger,None,None
+TTE,699,013,50733,IND,Bruce Johnson,None,None
+TTE,699,014,88355,IND,Marie Jones,None,None
+TTE,699,015,88356,IND,Nicole Kersting,None,None
+TTE,699,016,88357,IND,Sheilah Nicholas,None,None
+TTE,699,017,88359,IND,Iliana Reyes,None,None
+TTE,699,018,88360,IND,Eliane Rubinstein-Avila,None,None
+TTE,699,019,88361,IND,Valerie Shirley,None,None
+TTE,699,020,88363,IND,Kathleen Short,None,None
+TTE,699,021,88364,IND,William Smith,None,None
+TTE,699,022,88365,IND,Jessica Summers,None,None
+TTE,699,023,88367,IND,Sara Tolbert,None,None
+TTE,699,024,88368,IND,Erin Turner,None,None
+TTE,699,025,88369,IND,Marcy Wood,None,None
+TTE,699,026,88370,IND,Leisy Wyman,None,None
+TTE,699,027,88371,IND,David Yaden,None,None
+TTE,793,001,50567,IND,Marcy Wood,None,None
+TTE,793,002,50736,IND,Renee Clift,None,None
+TTE,793A,001,50568,IND,Patricia Anders,None,None
+TTE,793A,002,50668,IND,Alberto Arenas,None,None
+TTE,793A,003,50669,IND,Carol Brochin,None,None
+TTE,793A,004,50670,IND,Katherine Carter,None,None
+TTE,793A,005,50671,IND,Jill Castek,None,None
+TTE,793A,006,50672,IND,Mary Combs,None,None
+TTE,793A,007,50673,IND,Leah Duran,None,None
+TTE,793A,008,50674,IND,Jeremy Garcia,None,None
+TTE,793A,009,50675,IND,Perry Gilmore,None,None
+TTE,793A,010,50676,IND,Kristin Gunckel,None,None
+TTE,793A,011,50677,IND,Ana Iddings,None,None
+TTE,793A,012,50678,IND,Elizabeth Jaeger,None,None
+TTE,793A,013,88372,IND,Bruce Johnson,None,None
+TTE,793A,014,88373,IND,Marie Jones,None,None
+TTE,793A,015,88374,IND,Nicole Kersting,None,None
+TTE,793A,016,88375,IND,Sheilah Nicholas,None,None
+TTE,793A,017,88376,IND,Iliana Reyes,None,None
+TTE,793A,018,88377,IND,Eliane Rubinstein-Avila,None,None
+TTE,793A,019,88378,IND,Valerie Shirley,None,None
+TTE,793A,020,88386,IND,Kathleen Short,None,None
+TTE,793A,021,88381,IND,William Smith,None,None
+TTE,793A,022,88390,IND,Jessica Summers,None,None
+TTE,793A,023,88393,IND,Sara Tolbert,None,None
+TTE,793A,024,88397,IND,Erin Turner,None,None
+TTE,793A,025,88398,IND,Marcy Wood,None,None
+TTE,793A,026,88399,IND,Leisy Wyman,None,None
+TTE,793A,027,88400,IND,David Yaden,None,None
+TTE,793A,028,89759,IND,Sanlyn Buxner,None,None
+TTE,793B,001,50569,IND,Patricia Anders,None,None
+TTE,793B,002,50679,IND,Alberto Arenas,None,None
+TTE,793B,003,50680,IND,Carol Brochin,None,None
+TTE,793B,004,50681,IND,Katherine Carter,None,None
+TTE,793B,005,50682,IND,Jill Castek,None,None
+TTE,793B,006,50683,IND,Mary Combs,None,None
+TTE,793B,007,50684,IND,Leah Duran,None,None
+TTE,793B,008,50685,IND,Jeremy Garcia,None,None
+TTE,793B,009,50686,IND,Perry Gilmore,None,None
+TTE,793B,010,50687,IND,Kristin Gunckel,None,None
+TTE,793B,011,50688,IND,Marta Civil,None,None
+TTE,793B,012,50689,IND,Elizabeth Jaeger,None,None
+TTE,793B,013,50698,IND,Bruce Johnson,None,None
+TTE,793B,014,50738,IND,Marie Jones,None,None
+TTE,793B,015,88380,IND,Nicole Kersting,None,None
+TTE,793B,016,88382,IND,Sheilah Nicholas,None,None
+TTE,793B,017,88383,IND,Iliana Reyes,None,None
+TTE,793B,018,88384,IND,Eliane Rubinstein-Avila,None,None
+TTE,793B,019,88385,IND,Valerie Shirley,None,None
+TTE,793B,020,88387,IND,Kathleen Short,None,None
+TTE,793B,021,88388,IND,William Smith,None,None
+TTE,793B,022,88389,IND,Jessica Summers,None,None
+TTE,793B,023,88391,IND,Sara Tolbert,None,None
+TTE,793B,024,88392,IND,Erin Turner,None,None
+TTE,793B,025,88394,IND,Marcy Wood,None,None
+TTE,793B,026,88395,IND,Leisy Wyman,None,None
+TTE,793B,027,88396,IND,David Yaden,None,None
+TTE,794,001,50570,IND,Bruce Johnson,None,None
+TTE,799,001,50571,IND,Patricia Anders,None,None
+TTE,799,002,50611,IND,Alberto Arenas,None,None
+TTE,799,003,50612,IND,Carol Brochin,None,None
+TTE,799,004,50613,IND,Katherine Carter,None,None
+TTE,799,005,50614,IND,Jill Castek,None,None
+TTE,799,006,50615,IND,Mary Combs,None,None
+TTE,799,007,50616,IND,Leah Duran,None,None
+TTE,799,008,50617,IND,Jeremy Garcia,None,None
+TTE,799,009,50618,IND,Perry Gilmore,None,None
+TTE,799,010,50619,IND,Kristin Gunckel,None,None
+TTE,799,011,50620,IND,Ana Iddings,None,None
+TTE,799,012,50621,IND,Elizabeth Jaeger,None,None
+TTE,799,013,50692,IND,Bruce Johnson,None,None
+TTE,799,014,50732,IND,Marie Jones,None,None
+TTE,799,015,88405,IND,Nicole Kersting,None,None
+TTE,799,016,88406,IND,Sheilah Nicholas,None,None
+TTE,799,017,88407,IND,Iliana Reyes,None,None
+TTE,799,018,88408,IND,Eliane Rubinstein-Avila,None,None
+TTE,799,019,88409,IND,Valerie Shirley,None,None
+TTE,799,020,88410,IND,Kathleen Short,None,None
+TTE,799,021,88411,IND,William Smith,None,None
+TTE,799,022,88412,IND,Jessica Summers,None,None
+TTE,799,023,88413,IND,Sara Tolbert,None,None
+TTE,799,024,88414,IND,Erin Turner,None,None
+TTE,799,025,88415,IND,Marcy Wood,None,None
+TTE,799,026,88416,IND,Leisy Wyman,None,None
+TTE,799,027,88417,IND,David Yaden,None,None
+TTE,900,001,50572,IND,Patricia Anders,None,None
+TTE,900,002,50622,IND,Alberto Arenas,None,None
+TTE,900,003,50623,IND,Carol Brochin,None,None
+TTE,900,004,50624,IND,Katherine Carter,None,None
+TTE,900,005,50625,IND,Jill Castek,None,None
+TTE,900,006,50626,IND,Mary Combs,None,None
+TTE,900,007,50627,IND,Leah Duran,None,None
+TTE,900,008,50628,IND,Jeremy Garcia,None,None
+TTE,900,009,50629,IND,Perry Gilmore,None,None
+TTE,900,010,50630,IND,Kristin Gunckel,None,None
+TTE,900,011,50631,IND,Ana Iddings,None,None
+TTE,900,012,50632,IND,Elizabeth Jaeger,None,None
+TTE,900,013,88419,IND,Bruce Johnson,None,None
+TTE,900,014,88420,IND,Marie Jones,None,None
+TTE,900,015,88421,IND,Nicole Kersting,None,None
+TTE,900,016,88422,IND,Sheilah Nicholas,None,None
+TTE,900,017,88423,IND,Iliana Reyes,None,None
+TTE,900,018,88424,IND,Eliane Rubinstein-Avila,None,None
+TTE,900,019,88425,IND,Valerie Shirley,None,None
+TTE,900,021,88429,IND,William Smith,None,None
+TTE,900,022,88430,IND,Jessica Summers,None,None
+TTE,900,023,88431,IND,Sara Tolbert,None,None
+TTE,900,024,88432,IND,Erin Turner,None,None
+TTE,900,025,88433,IND,Marcy Wood,None,None
+TTE,900,026,88434,IND,Leisy Wyman,None,None
+TTE,900,027,88435,IND,David Yaden,None,None
+TTE,909,001,50573,IND,Patricia Anders,None,None
+TTE,909,002,50633,IND,Alberto Arenas,None,None
+TTE,909,003,50634,IND,Carol Brochin,None,None
+TTE,909,004,50635,IND,Katherine Carter,None,None
+TTE,909,005,50636,IND,Jill Castek,None,None
+TTE,909,006,50637,IND,Mary Combs,None,None
+TTE,909,007,50638,IND,Leah Duran,None,None
+TTE,909,008,50639,IND,Jeremy Garcia,None,None
+TTE,909,009,50640,IND,Perry Gilmore,None,None
+TTE,909,010,50641,IND,Kristin Gunckel,None,None
+TTE,909,011,50642,IND,Ana Iddings,None,None
+TTE,909,012,50643,IND,Elizabeth Jaeger,None,None
+TTE,909,013,88436,IND,Bruce Johnson,None,None
+TTE,909,014,88437,IND,Marie Jones,None,None
+TTE,909,015,88438,IND,Nicole Kersting,None,None
+TTE,909,016,88439,IND,Sheilah Nicholas,None,None
+TTE,909,017,88440,IND,Iliana Reyes,None,None
+TTE,909,018,88441,IND,Eliane Rubinstein-Avila,None,None
+TTE,909,019,88442,IND,Valerie Shirley,None,None
+TTE,909,020,88443,IND,Kathleen Short,None,None
+TTE,909,021,88444,IND,William Smith,None,None
+TTE,909,022,88445,IND,Jessica Summers,None,None
+TTE,909,023,88446,IND,Sara Tolbert,None,None
+TTE,909,024,88447,IND,Erin Turner,None,None
+TTE,909,025,88448,IND,Marcy Wood,None,None
+TTE,909,026,88449,IND,Leisy Wyman,None,None
+TTE,909,027,88450,IND,David Yaden,None,None
+TTE,910,001,50574,IND,Patricia Anders,None,None
+TTE,910,002,50644,IND,Alberto Arenas,None,None
+TTE,910,003,50645,IND,Carol Brochin,None,None
+TTE,910,004,50646,IND,Katherine Carter,None,None
+TTE,910,005,50647,IND,Jill Castek,None,None
+TTE,910,006,50648,IND,Mary Combs,None,None
+TTE,910,007,50649,IND,Leah Duran,None,None
+TTE,910,008,50650,IND,Jeremy Garcia,None,None
+TTE,910,009,50651,IND,Perry Gilmore,None,None
+TTE,910,010,50652,IND,Kristin Gunckel,None,None
+TTE,910,011,50653,IND,Ana Iddings,None,None
+TTE,910,012,50654,IND,Elizabeth Jaeger,None,None
+TTE,910,013,88455,IND,Bruce Johnson,None,None
+TTE,910,014,88456,IND,Marie Jones,None,None
+TTE,910,015,88457,IND,Nicole Kersting,None,None
+TTE,910,016,88458,IND,Sheilah Nicholas,None,None
+TTE,910,017,88459,IND,Iliana Reyes,None,None
+TTE,910,018,88460,IND,Eliane Rubinstein-Avila,None,None
+TTE,910,019,88461,IND,Valerie Shirley,None,None
+TTE,910,020,88462,IND,Kathleen Short,None,None
+TTE,910,021,88463,IND,Bruce Smith,None,None
+TTE,910,022,88464,IND,Jessica Summers,None,None
+TTE,910,023,88465,IND,Sara Tolbert,None,None
+TTE,910,024,88466,IND,Erin Turner,None,None
+TTE,910,025,88467,IND,Marcy Wood,None,None
+TTE,910,026,88468,IND,Leisy Wyman,None,None
+TTE,910,027,88469,IND,David Yaden,None,None
+TTE,920,001,50575,IND,Patricia Anders,None,None
+TTE,920,002,50655,IND,Alberto Arenas,None,None
+TTE,920,003,50656,IND,Carol Brochin,None,None
+TTE,920,004,50657,IND,Katherine Carter,None,None
+TTE,920,005,50658,IND,Jill Castek,None,None
+TTE,920,006,50659,IND,Mary Combs,None,None
+TTE,920,007,50660,IND,Leah Duran,None,None
+TTE,920,008,50661,IND,Jeremy Garcia,None,None
+TTE,920,009,50662,IND,Perry Gilmore,None,None
+TTE,920,010,50663,IND,Kristin Gunckel,None,None
+TTE,920,011,50664,IND,Ana Iddings,None,None
+TTE,920,012,50665,IND,Elizabeth Jaeger,None,None
+TTE,920,013,50731,IND,Bruce Johnson,None,None
+TTE,920,014,88470,IND,Marie Jones,None,None
+TTE,920,015,88471,IND,Nicole Kersting,None,None
+TTE,920,016,88472,IND,Sheilah Nicholas,None,None
+TTE,920,017,88473,IND,Iliana Reyes,None,None
+TTE,920,018,88474,IND,Eliane Rubinstein-Avila,None,None
+TTE,920,019,88475,IND,Valerie Shirley,None,None
+TTE,920,020,88476,IND,Kathleen Short,None,None
+TTE,920,021,88477,IND,William Smith,None,None
+TTE,920,022,88478,IND,Jessica Summers,None,None
+TTE,920,023,88479,IND,Sara Tolbert,None,None
+TTE,920,024,88480,IND,Erin Turner,None,None
+TTE,920,025,88481,IND,Marcy Wood,None,None
+TTE,920,026,88482,IND,Leisy Wyman,None,None
+TTE,920,027,88483,IND,David Yaden,None,None
+TTE,920,028,88703,IND,Renee Clift,None,None
+TURK,102,001,69209,LEC,Ahmet Okal,C E Chavez Bldg,Rm 104
+TURK,102,002,94838,LEC,Nazin Ciziri,Psychology,Rm 306
+TURK,199,001,68250,IND,Staff,None,None
+TURK,199,011,68256,IND,Staff,None,None
+TURK,299,001,68251,IND,Staff,None,None
+TURK,299,011,68257,IND,Staff,None,None
+TURK,399,001,68252,IND,Ahmet Okal,None,None
+TURK,399,011,68258,IND,Staff,None,None
+TURK,402,001,69211,LEC,Ahmet Okal,C E Chavez Bldg,Rm 104
+TURK,404,001,69212,LEC,Ahmet Okal,L F Marshall Bldg,Rm 451
+TURK,404,101,87715,LEC,Staff,Online,Online
+TURK,408,001,76092,LEC,Ahmet Okal,L F Marshall Bldg,Rm 451
+TURK,499,001,68253,IND,Staff,None,None
+TURK,499,011,68259,IND,Staff,None,None
+TURK,504,001,69214,LEC,Ahmet Okal,L F Marshall Bldg,Rm 451
+TURK,504,101,87716,LEC,Staff,Online,Online
+TURK,508,001,75174,LEC,Ahmet Okal,L F Marshall Bldg,Rm 451
+TURK,599,001,68254,IND,Staff,None,None
+TURK,599,011,68260,IND,Staff,None,None
+TURK,699,001,68255,IND,Staff,None,None
+TURK,699,002,76906,IND,Staff,None,None
+TURK,699,011,68261,IND,Staff,None,None
+WFSC,405,001,85645,LEC,Michael Bogan,Biol Sci East,Rm 124
+WFSC,405,001A,85647,LAB,Michael Bogan,Biol Sci East,Rm 124
+WFSC,441A,001,77946,LEC,Ronald Trosper,R P Harvill Bldg,Rm 318
+WFSC,445,001,81159,LEC,Robert Steidl,Env & Nat Rsrcs Phas2,Rm S210
+WFSC,445,001A,81160,LAB,Erin Zylstra,Env & Nat Rsrcs Phas2,Rm N350
+WFSC,454,001,79651,LEC,Bailie Mccormick,Forbes,Rm 124
+WFSC,455L,001,93417,LAB,Scott Bonar,Biol Sci East,Rm 124
+WFSC,455R,001,93420,LEC,Scott Bonar,Biol Sci East,Rm 124
+WFSC,456,001,93439,LEC,Arun Dhar,R P Harvill Bldg,Rm 107
+WFSC,505,001,83671,LEC,Michael Bogan,Biol Sci East,Rm 124
+WFSC,505,001A,89672,LAB,Michael Bogan,Biol Sci East,Rm 124
+WFSC,541A,001,77952,LEC,Ronald Trosper,R P Harvill Bldg,Rm 318
+WFSC,545,001,81161,LEC,Robert Steidl,Env & Nat Rsrcs Phas2,Rm S210
+WFSC,545,001A,81201,LAB,Erin Zylstra,Env & Nat Rsrcs Phas2,Rm N350
+WFSC,554,001,79671,LEC,Bailie Mccormick,Forbes,Rm 124
+WFSC,555L,001,93418,LAB,Scott Bonar,Biol Sci East,Rm 124
+WFSC,555R,001,93421,LEC,Scott Bonar,Biol Sci East,Rm 124
+WFSC,575,001,71068,LEC,David Walker,Henry Koffler Bldg,Rm 511
+WFSC,583,001,92365,LEC,John Wiens,C E Chavez Bldg,Rm 303
+WFSC,583,001A,92366,LAB,John Wiens,Henry Koffler Bldg,Rm 411
+WFSC,583,001B,92367,LAB,John Wiens,Henry Koffler Bldg,Rm 411
+WFSC,584,001,76079,LEC,Kelly Hallinger,Biol Sci West,Rm 210
+WFSC,584,001A,76080,LAB,Evan Kelemen,Biol Sci East,Rm 223
+WFSC,584,001B,76081,LAB,Evan Kelemen,Biol Sci East,Rm 223
+WFSC,595G,387,91391,CLQ,John Koprowski,Env & Nat Rsrcs Phas2,Rm N375
+WFSC,596B,001,82891,SEM,Staff,None,None
+WFSC,696A,001,68262,SEM,Staff,None,None
+WFSC,696A,002,75761,SEM,David Christianson,None,None
+WSM,330,201,87873,LEC,Kyle Hartfield,Online,Online
+WSM,441A,001,77947,LEC,Ronald Trosper,R P Harvill Bldg,Rm 318
+WSM,462,001,88186,LEC,D Guertin,Biol Sci East,Rm 124
+WSM,462,001A,88206,LAB,D Guertin,Env & Nat Rsrcs Phas2,Rm N250
+WSM,468,001,70977,LEC,David Quanrud,Env & Nat Rsrcs Phas2,Rm S210
+WSM,541A,001,77953,LEC,Ronald Trosper,R P Harvill Bldg,Rm 318
+WSM,562,001,88190,LEC,D Guertin,Biol Sci East,Rm 124
+WSM,562,001A,88205,LAB,D Guertin,Env & Nat Rsrcs Phas2,Rm N250
+WSM,568,001,70978,LEC,David Quanrud,Env & Nat Rsrcs Phas2,Rm S210
+WSM,579,001,92254,LEC,Pieter Hazenberg,Phys-Atmos Sci,Rm 488
+WSM,595E,001,84351,CLQ,Staff,None,None
+WSM,595E,002,68263,CLQ,Malcolm Hughes,None,None
+WSM,595E,003,68264,CLQ,Jeffrey Dean,None,None
+WSM,595E,004,68265,CLQ,Steven Leavitt,None,None
+WSM,595E,005,68266,CLQ,Katherine Hirschboeck,None,None
+WSM,595E,006,68267,CLQ,Paul Sheppard,None,None
+WSM,595E,007,68268,CLQ,Valerie Trouet,None,None
+WSM,595E,008,68269,CLQ,David Meko,None,None
+WSM,595E,009,68270,CLQ,Ronald Towner,None,None
+WSM,595E,010,73711,CLQ,Pearce Creasman,None,None
+WSM,595E,011,73712,CLQ,Russell Monson,None,None
+WSM,595E,012,73713,CLQ,Ramzi Touchan,None,None
+WSM,595E,013,93756,CLQ,Charlotte Pearson,Bannister Tree Ring Bld Rm 110,Bannister Tree Ring Bld Rm 110
+WSM,597C,001,71224,WRK,Paul Sheppard,Bannister Tree Ring Bld Rm 110,Bannister Tree Ring Bld Rm 110
+WSM,696A,001,90768,SEM,Michael Bogan,None,None

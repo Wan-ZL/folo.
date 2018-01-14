@@ -13,9 +13,9 @@ for line in thefile:
 
 
 course_number = []
-# read URL1
+# read URL
 for x in range(0, len(subject_code)):
-    time.sleep(1)
+    time.sleep(0.1)
     URL = "https://ws.uits.arizona.edu/UA_Courses/courses?subject_code="+subject_code[x]+"&term_code=2181"
     urlOpen = urllib.urlopen(URL)
     urlContent = urlOpen.read()
@@ -23,8 +23,9 @@ for x in range(0, len(subject_code)):
     eachCourse = subject_code[x]
     for y in range(0, len(urlRoot)):
         eachCourse = eachCourse+","+urlRoot[y][2].text
-    print eachCourse
-    course_number.append(eachCourse)
+    if len(urlRoot) is not 0:
+        print eachCourse
+        course_number.append(eachCourse)
 
 #save to file
 saveFile = open('course_number','w')
