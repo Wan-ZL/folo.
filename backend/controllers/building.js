@@ -52,7 +52,7 @@ let BuildingController = {
   },
   'get': {
     'getBuilding': async (req, res, next) => {
-      const name = req.query.name
+      const name = req.query.name.toLowerCase()
       console.log(name)
       let result
       const query = {'name': name}
