@@ -5,6 +5,6 @@ let router = express.Router()
 
 const buildingController = require('../controllers/building')
 
-router.post('createBuilding', buildingController.post.createBuilding)
+router.post('/createBuilding', buildingController.post.createBuilding)
 
 module.exports = router

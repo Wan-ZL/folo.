@@ -24,7 +24,8 @@ app.use(cors())
 app.use(express.static(path.join(__dirname, 'public')))
 
 let routes = {
-  '/v1/course': require('')
+  '/v1/course': require('./routes/course'),
+  '/v1/building': require('./routes/building')
 }
 
 Object.keys(routes).forEach((key) => {

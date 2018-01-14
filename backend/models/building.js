@@ -8,11 +8,11 @@ const BuildingSchema = new Mongoose.Schema({
     require: true
   },
   'latitude': {
-    type: SchemaTypes.Double,
+    type: SchemaTypes.Number,
     require: true
   },
   'longitude': {
-    type: SchemaTypes.Double,
+    type: SchemaTypes.Number,
     require: true
   },
   'createdAt': {
@@ -39,8 +39,16 @@ let Building = {
       resolve(result)
     })
   },
-  'findBuilding': (name) => {
+  'findBuilding': (query) => {
     return new Promise(async (resolve, reject) => {
+      let result
+      try {
+        result = await BuildingModel.findOne(query)
+      } catch (error) {
+        console.error(error)
+        reject(error)
+      }
+      resolve(result)
     })
   }
 }
