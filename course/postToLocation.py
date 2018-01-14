@@ -3,7 +3,7 @@ import json
 import os
 
 url = 'http://127.0.0.1:9000/v1/building/createBuilding'
-filename = 'building_name'
+filename = 'all_building_name'
 
 def main():
     enc = 'iso-8859-15'
