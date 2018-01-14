@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 let routes = {
   '/v1/course': require('./routes/course'),
   '/v1/building': require('./routes/building'),
-  '/index': require('./routes/index')
+  '/': require('./routes/index')
 }
 
 Object.keys(routes).forEach((key) => {
