@@ -26,6 +26,7 @@ class ARViewController: UIViewController, ARSKViewDelegate, ARSessionDelegate{
     var currentLocation : CLLocation!
     // Destenation Building Info
     var destLocation : CLLocation!
+    var alt : Double = 730.0
     
     
     override func viewDidLoad() {
@@ -34,7 +35,7 @@ class ARViewController: UIViewController, ARSKViewDelegate, ARSessionDelegate{
         sceneView.run()
         view.addSubview(sceneView)
         
-        destLocation = CLLocation(coordinate: CLLocationCoordinate2D(latitude:Double(uaLoc.latitude!)!, longitude:Double(uaLoc.longitude!)!),altitude:Double(uaLoc.altitude!)!)
+        destLocation = CLLocation(coordinate: CLLocationCoordinate2D(latitude:Double(uaLoc.latitude!)!, longitude:Double(uaLoc.longitude!)!),altitude:alt)
         
         // Return
         let retBox = SCNBox(width: 2.805, height: 1.7, length: 1, chamferRadius: 0)
@@ -168,6 +169,7 @@ extension ARViewController: CLLocationManagerDelegate {
         
         // manager.stopUpdatingLocation()
         self.currentLocation = userLocation
+        self.alt = userLocation.altitude
         print("user latitude = \(userLocation.coordinate.latitude)")
         print("user longitude = \(userLocation.coordinate.longitude)")
         print("user altitude = \(userLocation.altitude)")
