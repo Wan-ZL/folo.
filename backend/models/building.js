@@ -8,11 +8,11 @@ const BuildingSchema = new Mongoose.Schema({
     require: true
   },
   'latitude': {
-    type: SchemaTypes.Number,
+    type: SchemaTypes.String,
     require: true
   },
   'longitude': {
-    type: SchemaTypes.Number,
+    type: SchemaTypes.String,
     require: true
   },
   'createdAt': {

@@ -6,6 +6,7 @@ let BuildingController = {
   'post': {
     'createBuilding': async (req, res, next) => {
       const building = req.body
+      console.log(building)
       let findBuilding
       let result
       try {
@@ -39,14 +40,14 @@ let BuildingController = {
           return res.status(500).json({
             'code': 101,
             'message': '服务器内部错误',
-            'result': {}
+            'result': []
           })
         }
       }
       return res.status(200).json({
         'code': 200,
         'message': 'successful',
-        'result': result
+        'result': [result]
       })
     }
   },
@@ -63,13 +64,20 @@ let BuildingController = {
         return res.status(500).json({
           'code': 101,
           'message': 'internal server error',
-          'result': {}
+          'result': []
+        })
+      }
+      if (result === null) {
+        return res.status(200).json({
+          'code': 200,
+          'message': 'successful',
+          'result': []
         })
       }
       return res.status(200).json({
         'code': 200,
         'message': 'successful',
-        'result': result
+        'result': [result]
       })
     }
   }

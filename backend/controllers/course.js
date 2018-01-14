@@ -19,7 +19,7 @@ let CourseController = {
         return res.status(500).json({
           'code': 101,
           'message': 'internal server error',
-          'result': {}
+          'result': []
         })
       }
 
@@ -31,7 +31,7 @@ let CourseController = {
         return res.status(200).json({
           'code': 200,
           'message': 'found the course',
-          'result': {}
+          'result': []
         })
       } else if (findBuilding !== null) {
         result = await Course.createCourse({
@@ -48,7 +48,7 @@ let CourseController = {
         return res.status(500).json({
           'code': 101,
           'message': 'internal server error',
-          'result': {}
+          'result': []
         })
       }
       return res.status(200).json({
@@ -95,7 +95,7 @@ let CourseController = {
         return res.status(500).json({
           'code': 101,
           'message': 'internal server error',
-          'result': {}
+          'result': []
         })
       }
       return res.status(200).json({
