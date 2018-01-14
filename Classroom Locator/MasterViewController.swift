@@ -140,8 +140,10 @@ class MasterViewController: UIViewController, UITableViewDataSource, UITableView
                 print("Value: \(value) for key: \(key)")
             }
         }
+        print("RELOADING")
+        self.tableView.reloadData()
     }
-    tableView.reloadData()
+  
   }
   
   func searchBarIsEmpty() -> Bool {
