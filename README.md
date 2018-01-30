@@ -6,7 +6,7 @@ This is an IOS app that connected to UAccess database. --  Type in your class co
 ![screen shot](https://github.com/wenkanng/folo./blob/master/folo.png)
 
 # AR Developer : 
-    Xueheng Wan; Front-End : Wenkang Zhou; Back-End : Yujia Lin, Zelin Wan
+   Xueheng Wan; Front-End : Wenkang Zhou; Back-End : Yujia Lin, Zelin Wan
 
 # Video: 
-    [demo_video1](https://youtu.be/VW0ThMj4Izk) and [demo_video2](https://youtu.be/6BFpfspfJs4)
+   [Demo1](https://youtu.be/VW0ThMj4Izk) and [Demo2](https://youtu.be/6BFpfspfJs4)
