@@ -175,7 +175,11 @@ open class LocationAnnotationNode: LocationNode {
     }
     // Wan Added - Distance Tag AR Overlay
     public init(location: CLLocation?, distance: CLLocationDistance) {
+<<<<<<< HEAD
         let arrivingDist : Float = 150
+=======
+        let arrivingDist : Float = 500
+>>>>>>> e9e19ff822df0b176aa392b985594e3b0c1746e0
         let scale = Float(1.0)
         let textColor = UIColor.orange
         /*
